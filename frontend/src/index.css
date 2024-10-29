@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* background: linear-gradient(to bottom, #ebf8ff, #ffffff, #f0faff); */
+  background: #FFFFFF;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+:root {
+  font-family: "Poppins", sans-serif;
+
+  --header-bg: #7091E6;
+  background-color: #6fa8dc;
+  --page-bg: #6fa8dc;
+  --anchor-tags: #EDE8F5;
+  --footer-bg: linear-gradient(to right, #FF6F61, #FFB74D);
+  --button1-bg: #cad2e4;
+  --button2-bg: #7091E6;
+  --div-color: #ADBBDA;
+  --span-color: #FFFFFF;
+
+  --light-color-one:#A9CEF4;
+  --light-color-two:#7EA0B7;
+  --medium-color-one:#597081;
+  --dark-color-one:#36494E;
+  --dark-color-two:#000000;
+}
+nav {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+  transition: color 0.3s ease;
+}
+
+nav .container {
+  max-width: 1200px;
+}
+
+nav button:hover, nav a:hover {
+  color: var(--light-color-two);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.75s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #4070fa;
+  }
+}
+/* Custom styles for the forward button */
+.forward-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Add padding */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.forward-button:hover {
+  background-color: #000; /* Change to black on hover */
+}
+

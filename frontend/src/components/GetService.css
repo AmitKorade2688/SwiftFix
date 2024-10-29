@@ -1,0 +1,87 @@
+/* GetService.css */
+
+/* Container for the entire component */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Heading Style */
+  .container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Services Container using CSS Grid */
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; /* Equal spacing between cards */
+  }
+  
+  /* Individual Service Card */
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect for Service Card */
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Service Image */
+  .service-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  /* Service Title */
+  .service-title {
+    font-size: 1.5em;
+    margin: 15px;
+    color: #007BFF;
+    flex-grow: 1; /* Pushes the button to the bottom */
+  }
+  
+  /* Service Rating */
+  .service-rating {
+    margin: 0 15px;
+    color: #555555;
+    font-size: 0.9em;
+  }
+  
+  /* Service Price */
+  .service-price {
+    margin: 10px 15px;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  /* Book Now Button */
+  .book-button {
+    margin: 15px;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }

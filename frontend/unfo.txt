@@ -1,0 +1,8 @@
+SwiftFix is a website(Platform) developed to help individuals to get all the home services under one roof i.e a user friendly home service website. Getting home services 
+at affordable market prices and instantly is quite a tedious task our appication aims to ease this task by providing a one stop solution. SwiftFix is useful for both the one
+whoe are looking for home services and the one who have skills but are unable to find a job. SwiftFix has various features with user-friendly home-services display
+like a chatbot to answer your questions all the time as per your need, multilingual support(english & hindi both), subscription based model, dark-light mode
+functionality, cheaper packages if you get multiple home services and many more. SwiftFix ensures the background checks of the home service providers(SwiftStars)
+to ensure a peace of mind for individuals who book home services. During festive season like navratre and diwali we have a discount offer going on with 20% off on 
+the total amount if you have DISCOUNT20 promocode. Also we take care of our SwiftStars(Home service providers) by providing top rates for their skills, 
+consistent job availability, adaptable schedules, etc
